@@ -7,7 +7,7 @@ trigger:
 - main
 
 pool:
-  vmImage: ubuntu-latest
+  name: 'ADO Agents'
 
 steps:
 - script: echo Hello, world!

@@ -7,7 +7,7 @@ trigger:
 - main
 
 pool:
-  vmImage: 'ADO Agents'
+  name: 'ADO Agents'
 
 steps:
 - script: echo Hello, world!
